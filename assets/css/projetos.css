@@ -1,0 +1,12 @@
+.projetos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .projetos {
+        padding: 5rem 0;
+    }
+}

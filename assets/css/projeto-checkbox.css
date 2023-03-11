@@ -1,0 +1,45 @@
+.projeto-checkbox,
+.projeto2-checkbox,
+.projeto3-checkbox {
+    display: none;
+}
+
+.projeto-checkbox:checked ~ .projeto__titulo-visual,
+.projeto2-checkbox:checked ~ .projeto__titulo-visual,
+.projeto3-checkbox:checked ~ .projeto__titulo-visual {
+    display: none;
+}
+
+.projeto-checkbox:checked ~ .projeto__imagem,
+.projeto2-checkbox:checked ~ .projeto__imagem,
+.projeto3-checkbox:checked ~ .projeto__imagem {
+    background-image: unset;
+    transform: scale(1);
+}
+
+.projeto-checkbox:checked ~ .projeto__imagem,
+.projeto2-checkbox:checked ~ .projeto__imagem,
+.projeto3-checkbox:checked ~ .projeto__imagem {
+        background: var(--preto);
+        opacity: .5;
+        background-repeat:zz unset;
+        background-position: unset;
+        background-size: unset;
+        border-radius: 1em;
+} 
+
+.projeto-checkbox:not(:checked) ~ .projeto__conteudo,
+.projeto2-checkbox:not(:checked) ~ .projeto__conteudo,
+.projeto3-checkbox:not(:checked) ~ .projeto__conteudo {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .projeto-checkbox:not(:checked) ~ .projeto__conteudo,
+    .projeto2-checkbox:not(:checked) ~ .projeto__conteudo,
+    .projeto3-checkbox:not(:checked) ~ .projeto__conteudo {
+    display: flex;
+}
+}
+
+

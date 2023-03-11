@@ -1,0 +1,117 @@
+:root {
+    --fonte-principal: 'Raleway', sans-serif;
+    --preto: #262626;
+    --branco: #f8f8f8;
+    --cinza: #ECECEC;
+    --java: #fd5959;
+    --html: #9d53c3;
+    --css: #007cb9;
+    --php: #a2c11c;
+    --mysql: #ff894c;
+    --python: #49beb7;
+    --bootstrap: #a696c8;
+    --java-spring-boot: #9f1e49;
+    --kotlin: #f8b400;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: var(--fonte-principal);
+    color: var(--preto);
+    background: var(--branco);
+}
+
+.formato1:before {
+    content: '';
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    border: 5px solid var(--preto);
+    border-width: 6px 0 0 6px;
+    top: -10px;
+    left: -20px;
+}
+
+.formato1:after {
+    content: '';
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    border: 5px solid var(--preto);
+    border-width: 0 6px 6px 0;
+    right: -20px;
+    bottom: -10px;
+}
+
+.formato2:before {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0px;
+    width: 24px;
+    height: 24px;
+    border: 5px solid var(--branco);
+    border-width: 0 0 6px 6px;
+}
+
+.formato2:after {
+    content: '';
+    position: absolute;
+    top: -10px;
+    right: 0px;
+    width: 24px;
+    height: 24px;
+    border: 5px solid var(--branco);
+    border-width: 6px 6px 0 0;
+}
+
+@media screen and (min-width: 768px) {
+
+    .formato1:before {
+        top: -10px;
+        left: -80px;
+    }
+    
+    .formato1:after {
+        right: -80px;
+        bottom: -10px;
+    }
+
+    .formato2:before {
+        bottom: -10px;
+        left: -80px;
+    }
+    
+    .formato2:after {
+        top: -10px;
+        right: -80px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .formato1::before {
+        top: -5px;
+        left: -50px;
+        border-width: 8px 0 0 8px;
+    }
+
+    .formato1:after {
+        right: -50px;
+        bottom: -10px;
+        border-width: 0 8px 8px 0;
+    }
+
+    .formato2:before {
+        left: -80px;
+        bottom: -20px;
+    }
+
+    .formato2:after {
+        right: -80px;
+        top: -20px;
+    }
+}

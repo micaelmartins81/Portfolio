@@ -1,0 +1,27 @@
+.projeto__titulo {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+}
+
+.projeto__titulo-visual {
+    margin-top: 2rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    color: var(--branco);
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+}
+
+
+@media screen and (min-width: 1024px) {
+    .projeto__titulo-visual {
+        display: none;
+    }
+
+    .projeto__titulo {
+        transform: translateY(-150px);
+        transition: all 0.2s;
+    }
+}

@@ -1,0 +1,11 @@
+.menu__lista {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+@media screen and (min-width: 768px) {
+    .menu__lista {
+        gap: 3rem;
+    }
+}

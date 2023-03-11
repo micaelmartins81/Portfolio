@@ -1,0 +1,12 @@
+.projeto__descricao {
+   margin: 1.5rem 0;
+   text-align: justify;
+   font-size: 1.2rem;
+}
+
+@media screen and (min-width: 1024px) {
+   .projeto__descricao {   
+      transform: translateX(300px) rotate(90deg);
+      transition: all 0.2s;
+   }
+}

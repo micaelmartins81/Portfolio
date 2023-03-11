@@ -1,0 +1,20 @@
+.projeto__imagem {
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.projeto__imagem--barbearia {
+    background-image: url(../../image/alura.png);
+    transform: scale(.5);
+}
+
+.projeto__imagem--receita {
+    background-image: url(../../image/fruta.jpg);
+}
+.projeto__imagem--apeperia {
+    background-image: url(../../image/apeperia.png);
+    background-size: contain;
+}

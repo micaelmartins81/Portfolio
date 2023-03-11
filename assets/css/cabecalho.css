@@ -1,0 +1,18 @@
+.cabecalho {
+    background-color: var(--preto);
+    display: flex;
+    justify-content: space-around;
+    padding: 1.5rem 0;
+}
+
+@media  screen and (min-width: 768px) {
+    .cabecalho {
+        padding: 2.5rem 0;
+    }
+}
+
+@media  screen and (min-width: 1024px) {
+    .cabecalho {
+        padding: 3rem 0;
+    }
+}

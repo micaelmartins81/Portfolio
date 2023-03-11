@@ -1,0 +1,44 @@
+.sobre__descricao {
+    font-size: 1.2rem;
+    margin: 1.5rem 0;
+}
+
+.sobre__descricao:nth-child(3) {
+    text-align: center;
+}
+
+.sobre__descricao .java {
+    color: var(--java);
+}
+
+.sobre__descricao .html {
+    color: var(--html);
+}
+
+.sobre__descricao .css {
+    color: var(--css);
+}
+
+.sobre__descricao .php {
+    color: var(--php);
+}
+
+.sobre__descricao .mysql {
+    color: var(--mysql);
+}
+
+.sobre__descricao .python {
+    color: var(--python);
+}
+
+.sobre__descricao .bootstrap {
+    color: var(--bootstrap);
+}
+
+.sobre__descricao .javaspringboot {
+    color: var(--java-spring-boot);
+}
+
+.sobre__descricao .kotlin {
+    color: var(--kotlin);
+}

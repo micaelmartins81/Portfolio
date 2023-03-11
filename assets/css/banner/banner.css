@@ -1,0 +1,11 @@
+.banner {
+    background: var(--preto);
+    color: var(--branco);
+    padding: 2rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .banner {
+        padding: 5rem 0;
+    }
+}

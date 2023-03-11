@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./assets/css/base.css">
+
+    <link rel="stylesheet" href="./assets/css/cabecalho.css">
+
+    <link rel="stylesheet" href="./assets/css/menu/menu.css">
+    <link rel="stylesheet" href="./assets/css/menu/menu-lista.css">
+    <link rel="stylesheet" href="./assets/css/menu/menu-item.css">
+    <link rel="stylesheet" href="./assets/css/menu/menu-link.css">
+
+    <link rel="stylesheet" href="./assets/css/boas-vindas.css">
+
+    <link rel="stylesheet" href="./assets/css/sobre/sobre.css">
+    <link rel="stylesheet" href="./assets/css/sobre/sobre-titulo.css">
+    <link rel="stylesheet" href="./assets/css/sobre/sobre-container.css">
+    <link rel="stylesheet" href="./assets/css/sobre/sobre-subtitulo.css">
+    <link rel="stylesheet" href="./assets/css/sobre/sobre-descricao.css">
+
+    <link rel="stylesheet" href="./assets/css/banner/banner.css">
+    <link rel="stylesheet" href="./assets/css/banner/banner-conteudo.css">
+    <link rel="stylesheet" href="./assets/css/banner/banner-titulo.css">
+    <link rel="stylesheet" href="./assets/css/banner/banner-descricao.css">
+
+    <link rel="stylesheet" href="./assets/css/projetos.css">
+    <link rel="stylesheet" href="./assets/css/projeto/projeto.css">
+    <link rel="stylesheet" href="./assets/css/projeto-checkbox.css">
+    <link rel="stylesheet" href="./assets/css/projeto/projeto-imagem.css">
+    <link rel="stylesheet" href="./assets/css/projeto/projeto-conteudo.css">
+    <link rel="stylesheet" href="./assets/css/projeto/projeto-titulo.css">
+    <link rel="stylesheet" href="./assets/css/projeto/projeto-descricao.css">
+    <link rel="stylesheet" href="./assets/css/projeto/projeto-botao.css">
+
+    <link rel="stylesheet" href="./assets/css/rodape.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <nav class="menu">
+            <ul class="menu__lista">
+                <li class="menu__item"><a href="#" class="menu__link">Home</a></li>
+                <li class="menu__item"><a href="#projetos" class="menu__link">Projetos</a></li>
+                <li class="menu__item"><a href="#sobre" class="menu__link">Sobre</a></li>
+                <li class="menu__item"><a href="#contato" class="menu__link">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="boas-vindas" id="sobre">Seja bem-vindo (a) !</div>
+
+        <section class="sobre">
+            <h2 class="sobre__titulo formato1">Sobre</h2>
+            <div class="sobre__container">
+                <h3 class="sobre__subtitulo">Olá, sou o Micael Martins e aqui vou dar um breve resumo sobre min</h3>
+
+                <div class="sobre__conteudo">
+                    <p class="sobre__descricao">Eu ingressei na faculdade de <strong>Análise e Desenvolvimento de
+                            Sistemas</strong> em 2021, esse ano (2023) irei concluir o curso que estou fazendo e além da
+                        faculdade eu venho fazendo uns cursos por fora para ter mais conhecimento sobre linguagens de
+                        programação.</p>
+
+                    <h3 class="sobre__subtitulo">Linguagens e frameworks já vistos</h3>
+
+                    <p class="sobre__descricao"><span class="java"><strong>JAVA</strong></span> | <span
+                            class="html"><strong>HTML</strong></span> | <span class="css"><strong>CSS</strong></span> |
+                        <span class="php"><strong>PHP</strong></span> | <span
+                            class="mysql"><strong>MySQL</strong></span> | <span
+                            class="python"><strong>PYTHON</strong></span> | <span
+                            class="bootstrap"><strong>BOOTSTRAP</strong></span> | <span
+                            class="javaspringboot"><strong>JAVA SPRING BOOT</strong></span> | <span
+                            class="kotlin"><strong>KOTLIN</strong></span>
+                    </p>
+
+                    <p class="sobre__descricao">
+                        Gosto bastante de mexer com FRONT-END, busco uma empresa que me de a oportunidade de mostrar o
+                        meu potencial.
+                    </p>
+
+                    <p class="sobre__descricao"><strong>Sou bastante esforçado então não é um problema para min aprender
+                            uma nova linguagem.</strong></p>
+                </div>
+            </div>
+        </section>
+
+        <div class="banner" id="projetos">
+            <div class="banner__conteudo">
+                <p class="banner__descricao">Logo abaixo você verá alguns projetos que fiz durante a faculdade, projetos
+                    de
+                    cursos online e até mesmo projetos pessoais feitos com o intuito de praticar meus conhecimentos.</p>
+                <h2 class="banner__titulo formato2">Projetos</h2>
+            </div>
+        </div>
+
+        <section class="projetos">
+
+            <div class="projeto">
+                <input type="checkbox" id="projeto-checkbox" class="projeto-checkbox">
+                <label class="projeto1-checkbox" for="projeto-checkbox">
+                    <a class=" projeto__botao projeto__botao--info">Ver mais</a>
+                </label>
+
+                <h3 class="projeto__titulo projeto__titulo-visual">Barbearia Alura</h3>
+
+                <div class="projeto__imagem projeto__imagem--barbearia projeto__imagem--opaco"></div>
+
+                <div class="projeto__conteudo">
+                    <h3 class="projeto__titulo">Barbearia Alura</h3>
+                    <p class="projeto__descricao">Este foi o primeiro projeto que fiz durante o meu aprendizado no
+                        curso da Alura sobre HTML e CSS.</p>
+                    <a href="https://barbearia-alura-site.vercel.app/" class="projeto__botao" target="_blank">Ver site</a>
+                </div>
+            </div>
+
+            <div class="projeto">
+
+                <input type="checkbox" id="projeto2-checkbox" class="projeto-checkbox">
+                <label class="projeto1-checkbox" for="projeto2-checkbox">
+                    <a class=" projeto__botao projeto__botao--info">Ver mais</a>
+                </label>
+
+                <h3 class="projeto__titulo projeto__titulo-visual">Fruta & Fruto</h3>
+
+                <div class="projeto__imagem projeto__imagem--receita projeto__imagem--opaco"></div>
+
+                <div class="projeto__conteudo">
+                    <h3 class="projeto__titulo">Fruta & Fruto</h3>
+                    <p class="projeto__descricao">Nesse projeto foi utilizado a metodologia BEM, gostei muito de
+                        aprender sobre essa metodologia, continuo praticando até hoje.</p>
+                    <a href="https://fruta-fruto-pi.vercel.app/" class="projeto__botao" target="_blank">Ver site</a>
+                </div>
+            </div>
+
+            <div class="projeto">
+                <input type="checkbox" id="projeto3-checkbox" class="projeto-checkbox">
+                <label for="projeto3-checkbox" class="projeto1-checkbox">
+                    <a class=" projeto__botao projeto__botao--info">Ver mais</a>
+                </label>
+                <h3 class="projeto__titulo projeto__titulo-visual">Site Apeperia</h3>
+                <div class="projeto__imagem projeto__imagem--apeperia projeto__imagem--opaco"></div>
+                <div class="projeto__conteudo">
+                    <h3 class="projeto__titulo">Apeperia</h3>
+                    <p class="projeto__descricao">Neste projeto o foco foi mais na parte de responsividade do site e não
+                        no HTML e CSS.</p>
+                    <a href="https://apeperia-black.vercel.app/" class="projeto__botao" target="_blank">Ver site</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="rodape" id="contato">
+        <a href="https://www.linkedin.com/in/micael-alves-martins-filho-506770227/" target="_blank"><img src="./assets/image/linkedin.png" alt="Logo do Linkedin"></a>
+        <p>contato</p>
+        <a href="https://github.com/micaelmartins81" target="_blank"><img src="./assets/image/github.png" alt="Logo do GitHub"></a>
+    </footer>
+</body>
+
+</html>
