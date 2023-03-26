@@ -2,6 +2,7 @@
    margin: 1.5rem 0;
    text-align: justify;
    font-size: 1.2rem;
+   line-height: 1.5;
 }
 
 @media screen and (min-width: 1024px) {

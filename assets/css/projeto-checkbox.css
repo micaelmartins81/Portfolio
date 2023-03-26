@@ -22,7 +22,7 @@
 .projeto3-checkbox:checked ~ .projeto__imagem {
         background: var(--preto);
         opacity: .5;
-        background-repeat:zz unset;
+        background-repeat: unset;
         background-position: unset;
         background-size: unset;
         border-radius: 1em;
@@ -30,14 +30,16 @@
 
 .projeto-checkbox:not(:checked) ~ .projeto__conteudo,
 .projeto2-checkbox:not(:checked) ~ .projeto__conteudo,
-.projeto3-checkbox:not(:checked) ~ .projeto__conteudo {
+.projeto3-checkbox:not(:checked) ~ .projeto__conteudo,
+.projeto4-checkbox:not(:checked) ~ .projeto__conteudo {
     display: none;
 }
 
 @media screen and (min-width: 1024px) {
     .projeto-checkbox:not(:checked) ~ .projeto__conteudo,
     .projeto2-checkbox:not(:checked) ~ .projeto__conteudo,
-    .projeto3-checkbox:not(:checked) ~ .projeto__conteudo {
+    .projeto3-checkbox:not(:checked) ~ .projeto__conteudo,
+    .projeto4-checkbox:not(:checked) ~ .projeto__conteudo {
     display: flex;
 }
 }

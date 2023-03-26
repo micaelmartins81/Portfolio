@@ -7,8 +7,12 @@
     height: 400px;
     overflow: hidden;
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
     max-width: 315px;
+}
+
+.projeto:nth-child(4) {
+    display: none;
 }
 
 @media screen and (min-width: 768px) {
@@ -48,5 +52,9 @@
     .projeto:hover .projeto__botao {
         transform: translateY(0);
         transition-delay: 0.3s;
+    }
+
+    .projeto:nth-child(4) {
+        display: block;
     }
 }

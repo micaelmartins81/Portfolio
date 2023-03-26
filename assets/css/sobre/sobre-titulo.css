@@ -2,11 +2,11 @@
     position: relative;
     margin-bottom: .5rem;
     text-transform: uppercase;
+    font-size: 2rem;
 }
 
 @media screen and (min-width: 768px) {
     .sobre__titulo {
-        font-size: 2rem;
         margin-bottom: 1.5rem;
     }
 }

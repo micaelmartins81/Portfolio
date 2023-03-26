@@ -14,7 +14,12 @@
 .projeto__imagem--receita {
     background-image: url(../../image/fruta.jpg);
 }
+
 .projeto__imagem--apeperia {
     background-image: url(../../image/apeperia.png);
     background-size: contain;
+}
+
+.projeto__imagem--lisbonchair {
+    background-image: url(../../image/lisbonchair.png);
 }

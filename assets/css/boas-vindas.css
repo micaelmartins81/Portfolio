@@ -3,11 +3,12 @@
     font-weight: bold;
     padding: .5rem 0;
     background: var(--cinza);
+    margin-bottom: 2rem;
 }
 
 @media  screen and (min-width: 768px) {
     .boas-vindas {
-        margin-bottom: 2rem;
+        margin-bottom: 3rem;
     }
 }
 
